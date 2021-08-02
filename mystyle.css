@@ -1,0 +1,30 @@
+button:hover
+{
+    color: white;
+    font-size: 0px;
+    background-image: url('/png-clipart-trollface-trollface.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    /* box-shadow: 0 0 0 0; */
+    /* border: none; */
+}
+
+h1{
+    background-color: red;
+    text-align: center;
+    border: solid;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button{
+    font-size: 20px;
+    padding: 20px 20px;
+    border: 2px solid red;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 250px;
+    text-align: center;
+}
