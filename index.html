@@ -1,24 +1,191 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
+        <title>Développeur Fullstack - NSD</title>
         <meta charset="utf-8"/>
-        <title>Inspirational Quotes</title>
-        <link rel="stylesheet" href="mystyle.css">
-        <script defer src="src/all_quotes.js" charset="utf-8"></script>
+        <!-- > <meta name="author" content="NSD"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="description" content="Hello, je suis NSD, développeur fullstack spécialisé ReactJS/Node.js, actuellement en poste chez Comet à Lyon, France."/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Développeur Fullstack - NSD"/>
+        <meta property="og:image" content="https://nicolasbrondin.github.io/john-doe/src/img/open-graph.jpg"/>
+        <meta property="og:description" content="Hello, je suis NSD, développeur fullstack spécialisé React/Tailwind, actuellement en poste chez Blablacar dans la ville de Paris, France."/>
+        <meta name="twitter:title" content="Développeur fullstack - NSD"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image" content="https://nicolasbrondin.github.io/john-doe/src/img/open-graph.jpg"/>
+        <meta name="twitter:description" content="Hello, je suis NSD, développeur fullstack spécialisé React/Tailwind, actuellement en poste chez Blablacar dans la ville de Paris, France."/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  -->
+        <link rel="stylesheet" href="./src/css/base.css"/>
+        <link rel="stylesheet" href="./src/css/card.css"/>
+        <link rel="stylesheet" href="./src/css/thumbnail.css"/>
+        <link rel="stylesheet" href="./src/css/path.css"/>
+        <link rel="stylesheet" href="./src/css/skill-box.css"/>
+        <link rel="stylesheet" href="./src/css/list.css"/>
+        <link rel="favicon" href="./src/img/favicon.png"/>
     </head>
     <body>
-        <h1>Your inspirational quotes of the day!</h1>
-        <div id="quotes">
-        <br>
-        <br>
-            <!--quote here-->
+        <div class="page">
+            <div class="card" id="person">
+                <img id="person-picture" src="https://emoji.slack-edge.com/T0SK9FSHZ/hey_jude/6329f5b80e465c4c.png"/>
+                <img id="person-country" src="https://image.flaticon.com/icons/svg/197/197560.svg"/>
+                <section>
+                    <h1 id="person-fullname">NSD</h1>
+                    <h2 id="person-job">Fullstack Developer</h2>
+                    <p>Bonjour, je suis <id="person-firstname"><strong id="person-position">Fullstack Developer<br></strong> spécialisé en <strong>HTML, CSS, Javascript, ReactJS et Node.js</strong><strong id="person-speciality"></strong>.</p>
+                    <div>
+                        <a class="button" target="_blank" id="person-email" href="mailto:nsd@hotmail.fr">M'envoyer un email</a>
+                        <span class="or"> ou </span>
+                        <a target="_blank" class="button" href="https://www.linkedin.com/in/nicolas-sepahi/">Voir mon CV</a>
+                    </div>
+                    <hr/>
+                </section>
+                <section>
+                    <h3>Compétences</h3>
+                    <ul class="list">
+                        <li>
+                            <div class="skill-box">
+                                <span class="skill-favorite fa fa-bolt"></span>
+                                HTML/CSS
+                                <div class="box-well">
+                                    Langage
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                <span class="skill-favorite fa fa-bolt"></span>
+                                Javascript
+                                <div class="box-well">
+                                    Langage
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                <span class="skill-favorite fa fa-bolt"></span>
+                                ReactJS
+                                <div class="box-well">
+                                    Framework
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                Node.js
+                                <div class="box-well">
+                                    Framework
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                GitHub
+                                <div class="box-well">
+                                    Versioning
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                Tailwind
+                                <div class="box-well">
+                                    CSS
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                Heroku
+                                <div class="box-well">
+                                    Cloud
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                AWS
+                                <div class="box-well">
+                                    Cloud
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <hr/>
+                </section>
+                <section>
+                    <h3>Projets</h3>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(https://source.unsplash.com/random/800*600?quote)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Application</span>
+                            <p class="thumbnail-title">Random Quotes Site</p>
+                            <!-- <p class="thumbnail-description">Une version de pac-man avec une surprise en plus...</p> -->
+                            <div class="thumbnail-footer">
+                                <a href="/site-quotes/index.html" target="_blank">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(https://source.unsplash.com/random/800*600?Photo)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Application</span>
+                            <p class="thumbnail-title">Photo Editing App</p>
+                            <!-- <p class="thumbnail-description">Une version de pac-man avec une surprise en plus...</p> -->
+                            <div class="thumbnail-footer">
+                                <a href="https://k732aw.mimo.run/index.html" target="_blank">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(https://source.unsplash.com/random/800*600?photographer)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Application</span>
+                            <p class="thumbnail-title">Photographer Landing Page</p>
+                            <!-- <p class="thumbnail-description">Une version de pac-man avec une surprise en plus...</p> -->
+                            <div class="thumbnail-footer">
+                                <a href="https://jobzts.mimo.run/index.html" target="_blank">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(https://source.unsplash.com/random/800*600?exhibition)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Application</span>
+                            <p class="thumbnail-title">Photography Exhibition</p>
+                            <!-- <p class="thumbnail-description">Application d'achat en ligne sécurisé from scratch</p> -->
+                            <div class="thumbnail-footer">
+                                <a href="https://ddlxyx.mimo.run/index.html" target="_blank">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr/>
+                </section>
+                <section>
+                    <h3>Parcours</h3>
+                    <div class="path">
+                        <div class="step">
+                            <p class="step-title">Comet - 2021 à aujourd'hui</p>
+                            <p class="step-description">Développeur Fullstack ReactJS/Node.js sur l'application Comet
+                            <img class="logocompany" src="https://app.comet.co/static/img/logo-light.svg"/>
+                            </p>
+                        </div>
+                        <div class="step">
+                            <p class="step-title">Google - 2016 à 2021</p>
+                            <p class="step-description">Développeur Fullstack ReactJS/Node.js sur la création d'une plateforme de mise en relation entre freelances et entreprises
+                            <img class="logocompany" src="https://www.google.fr/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png"/>
+                            </p>
+                        </div>
+                        <div class="step">
+                            <p class="step-title">Coventry University - 2016</p>
+                            <p class="step-description">Dîplomé d'un titre professionnel de développeur Fullstack
+                            <img class="logocompany" src="https://www.coventry.ac.uk/globalassets/media/global/04-business-section-assets/business-landing-page/logos/coventry-university-logo-landscape4.png"/>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-        <br>
-        <br>
-        <br>
-        <div>
-        <button onClick="window.location.reload();">Want new quotes?</button>
-        </div>
-        <br>
     </body>
 </html>
