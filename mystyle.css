@@ -2,21 +2,21 @@ button:hover
 {
     color: white;
     font-size: 0px;
-    background-image: url('/png-clipart-trollface-trollface.png');
+    background-image: url("https://i.ibb.co/tbHn3Fn/E2-E4-A182-A6-A1-48-DD-8756-D2533-B5-B9-CEE.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 40%;
-    /* box-shadow: 0 0 0 0; */
-    /* border: none; */
 }
 
 h1{
-    background-color: red;
     text-align: center;
-    border: solid;
+    background-color: red;
+    border: 2px solid black;
     border-radius: 30px;
     padding: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 100%;
+
 }
 
 button{
@@ -26,5 +26,13 @@ button{
     cursor: pointer;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     width: 250px;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+body{
     text-align: center;
 }
